@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce : Panier Persistant</title>
+    
+   <link rel="stylesheet" href="panier.css">
+</head>
+<body>
+
+    <div class="products">
+        <h2>Produits</h2>
+        <div class="item"><span>iPhone 15</span><button onclick="addToCart('iPhone 15', 999)">Ajouter</button></div>
+        <div class="item"><span>MacBook Air</span><button onclick="addToCart('MacBook Air', 1200)">Ajouter</button></div>
+        <div class="item"><span>AirPods Pro</span><button onclick="addToCart('AirPods Pro', 250)">Ajouter</button></div>
+    </div>
+
+    <div class="cart">
+        <h2>Votre Panier</h2>
+        <div id="cart-items"></div>
+        <p><strong>Total: <span id="cart-total">0</span>€</strong></p>
+        <button class="empty-btn" onclick="clearCart()">Vider le panier</button>
+        <p><small id="last-updated"></small></p>
+    </div>
+
+    <script>
+      </script>
+</body>
+</html>
